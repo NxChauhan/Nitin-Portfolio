@@ -96,7 +96,7 @@
     }
     .block1>.myimg>img{
         float: none;
-        height: 250px;
+        height: 180px;
     }
     .shortintro{
         display: inline-block;
@@ -115,9 +115,6 @@
         font-size: medium;
     }
 
-}
-
-@media screen and (max-width: 449px ) {
     .page-name{
         font-size: 8px;
     }
@@ -132,5 +129,5 @@
         align-items: center;
     }
 
-   
 }
+
