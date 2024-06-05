@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+
+
+@media screen and (max-width: 991px){
+    .nav-toggle{
+        display: block;
+        margin-right: 40px;
+    }
+    .nav-list{
+        display: none;
+    }
+}
+
+@media screen and (max-width : 988px){
+    .block1{
+        height: 500px;
+    }
+    .block1>.myimg>img{
+        height: 460px;
+    }
+    
+    .shortintro{
+        left: 10%;
+    }
+    pre{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 45px;
+    }
+
+    .briefintro{
+        margin: 50px 10px 10px 10px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .block1{
+        height: 430px;
+    }
+    .block1>.myimg>img{
+        height: 400px;
+    }
+    .shortintro{
+        left: 10%;
+    }
+    pre{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 764px){
+    .block1{
+        height: 600px;
+    }
+    .block1>.myimg{
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+    }
+    .block1>.myimg>img{
+        float: none;
+        height: 400px;
+        
+    }
+    .shortintro{
+        display: inline-block;
+        position: relative;
+        top: 20px;
+        left: 30%;
+        color: whitesmoke
+    }
+
+    .briefintro{
+        margin: 50px 10px 10px 10px;
+        padding: 20px;
+        border: 2px solid rgba(245, 245, 245, 0.546);
+        border-radius: 2px;
+    
+        color: whitesmoke;
+        font-size: large;
+        text-align: justify;
+    
+        transition: all 0.8s ease-in-out;
+        cursor: pointer;
+    }
+}
+
+@media  screen and (max-width: 449px) {
+    .block1{
+        height: 400px;
+    }
+    .block1>.myimg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .block1>.myimg>img{
+        float: none;
+        height: 250px;
+    }
+    .shortintro{
+        display: inline-block;
+        position: relative;
+        top: 20px;
+        left: 15%;
+        color: whitesmoke;
+    }
+
+    pre{
+        font-size: 30px;
+    }
+
+    .briefintro{
+        margin-top: 20px;
+        font-size: medium;
+    }
+
+}
+
+@media screen and (max-width: 449px ) {
+    .page-name{
+        font-size: 8px;
+    }
+    
+    .contact{
+            font-size: 0.8em;  /* Reduce font size for smaller text */
+            text-align: center;  /* Center content horizontally */
+    }
+    .contact-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+   
+}
